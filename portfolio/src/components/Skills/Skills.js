@@ -1,13 +1,13 @@
 import React from 'react'
 import './Skills.css'
-import frontend from '../../assets/backend.png'
+import frontend from '../../assets/frontend.png'
 import backend from '../../assets/backend.png'
 import testing from '../../assets/testing.png'
 const Skills = () => {
   return (
     <section id='skills'>
         <span className="skillTitle">What I Do</span>
-        <span className="skillsDec">Proficient in Java, JavaScript, HTML, CSS, and SQL for robust backend and frontend development.<br></br> Skilled in Spring Boot, Angular 16, ReactJS, and JUnit for efficient framework-driven application development. Experienced with Git, VS Code, Postman,<br></br> Eclipse, and Selenium for streamlined development, testing, and automation.</span>
+        <span className="skillsDec">Proficient in Java, JavaScript, HTML, CSS, and SQL for robust backend and frontend development. Skilled in Spring Boot, Angular16, ReactJS, and JUnit for efficient framework-driven application development. Experienced with Git, VS Code, Postman, Eclipse, and Selenium for streamlined development, testing, and automation.</span>
         <div className="skillBars">
             <div className="skillBar">
                 <img src={frontend} alt="frontend" className="skillBarImg"/>
@@ -32,6 +32,7 @@ const Skills = () => {
                 <div className="skillBarText">
                     <h2>Automation Testing</h2>
                     <p>
+                        
                         Experience in Automation Testing using Selenium.
                     </p>
                 </div>
