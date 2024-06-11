@@ -9,26 +9,27 @@
 
 .bg{
     position: absolute;
-    top: 4rem;
+    top: 0.5rem;
     right: 0;
     z-index: -1;
     object-fit: cover;
-    height: 100vh;
+    height: 85vh;
 }
 
 .introContent{
-    height: 100vh;
+    height: 80vh;
     width: 100vw;
     padding: 2rem;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 700;
     display: flex;
     flex-direction: column;
     justify-content: center;
+   
 }
 
 .hello{
-    font-size: 1.75rem;
+    font-size: 2.5rem;
     font-weight: 100;
 }
 
@@ -38,7 +39,8 @@
 
 .introPara{
     font-size: medium;
-    font-weight: 100;
+    font-weight: 300;
+    letter-spacing: 1px;
 }
 
 .btn{
@@ -47,10 +49,31 @@
     padding: 0.75rem 1.5rem;
     border: none;
     border-radius: 2rem;
+    font-size: 0.9rem;
+    font-weight: 700;
 }
 
-.btnImg{
+.btnImg {
     object-fit: cover;
     margin: 0 0.25rem;
-    height: 1 rem;
+    height: 1rem; /* Adjust the height as needed */
+    width: auto;  /* This ensures the width adjusts proportionally to the height */
+    
+}
+@media  screen and(max-width:840px) {
+    .bg{
+        right:-10vw;
+    }
+    .introContent{
+        font-size: 10vw;
+    }
+    .hello{
+        font-size: 4vw;
+    }
+}
+@media  screen and(max-width:480px) {
+    .bg{
+        right:-20vw;
+    }
+    
 }

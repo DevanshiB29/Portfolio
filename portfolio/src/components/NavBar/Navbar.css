@@ -1,5 +1,5 @@
 .navbar{
-    height: 5rem;
+    height: 10rem;
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
@@ -19,7 +19,7 @@
 .desktopMenuListItem{
     margin: 1rem;
     cursor: pointer;
-
+    font-size: 1.5rem; 
 }
 
 .desktopMenuListItem:hover{
