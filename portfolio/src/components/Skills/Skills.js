@@ -6,8 +6,8 @@ import testing from '../../assets/testing.png'
 const Skills = () => {
   return (
     <section id='skills'>
-        <span className="skillsTitile">What I Can Do</span>
-        <span className="skillsDec">Proficient in Java, JavaScript, HTML, CSS, and SQL for robust backend and frontend development. Skilled in Spring Boot, Angular 16, ReactJS, and JUnit for efficient framework-driven application development. Experienced with Git, VS Code, Postman, Eclipse, and Selenium for streamlined development, testing, and automation.</span>
+        <span className="skillTitle">What I Do</span>
+        <span className="skillsDec">Proficient in Java, JavaScript, HTML, CSS, and SQL for robust backend and frontend development.<br></br> Skilled in Spring Boot, Angular 16, ReactJS, and JUnit for efficient framework-driven application development. Experienced with Git, VS Code, Postman,<br></br> Eclipse, and Selenium for streamlined development, testing, and automation.</span>
         <div className="skillBars">
             <div className="skillBar">
                 <img src={frontend} alt="frontend" className="skillBarImg"/>
