@@ -1,7 +1,7 @@
 import React,{useRef} from 'react'
 import './Contact.css';
 import linkedin from '../../assets/linkedin.png'
-import email from '../../assets/mail.png'
+
 import github from '../../assets/github.jpg'
 import leetcode from '../../assets/leetcode.png'
 import emailjs from '@emailjs/browser';
@@ -36,11 +36,16 @@ const Contact = () => {
                 <textarea className="msg" name="message" rows="5" placeholder='Your Message'></textarea>
                 <button type='submit' value='Send' className="submitBtn">Submit</button>
                 <div className="links">
+                    <a href='http://linkedin.com/in/devanshi-bhusari-622257148' target="blank" rel="nil">
                     <img src={linkedin} alt='linkedin' className="link"/>
-                    <img src={email} alt='email' className="link"/>
+                    </a>
+                    
+                    <a href='https://github.com/DevanshiB29' target="blank" rel="nil">
                     <img src={github} alt='github' className="link"/>
+                    </a>
+                    <a href='https://leetcode.com/u/spiker2001/' target="blank" rel="nil">
                     <img src={leetcode} alt='leetcode' className="link"/>
-
+                    </a>
                 </div>
             </form>
         </div>
