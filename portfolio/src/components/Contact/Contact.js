@@ -11,7 +11,7 @@ const Contact = () => {
         e.preventDefault();
     
         emailjs
-          .sendForm('service_ikggemj', 'template_bjqgh6l', form.current, {
+          .sendForm('service_qha8bk7', 'template_bjqgh6l', form.current, {
             publicKey: 's9epzOBRRH252EOl7',
           })
           .then(
